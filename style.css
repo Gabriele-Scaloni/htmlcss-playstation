@@ -1,0 +1,30 @@
+
+header{
+    height: 100px;
+    position: fixed; 
+}
+
+.col-haeder-top {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.text-header {  
+    color: white ;
+    padding-right: 5px;
+}
+
+.black-text {
+    color: black !important;
+}
+
+.btn-gray-border {
+    border-radius: 20px;
+}
+.jumbotron{
+    padding-top:100px;
+
+    height: auto;
+}
+
