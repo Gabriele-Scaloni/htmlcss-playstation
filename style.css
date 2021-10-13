@@ -1,5 +1,5 @@
 
-header{
+header {
     height: 150px;
     position: sticky; 
 }
@@ -16,6 +16,10 @@ header{
     padding-right: 5px;
 }
 
+.text-white {
+    color: white ;
+}
+
 .black-text {
     color: black !important;
 }
@@ -23,6 +27,7 @@ header{
 .btn-gray-border {
     border-radius: 20px;
 }
+
 .jumbotron {
     width: 100% ;
     height: auto;
@@ -36,19 +41,40 @@ header{
     height: auto;
 } 
 
-.orange{
+.orange {
     background-color: orangered;
 }
 
-.container.jumbo{
+.blu {
+    background-color: rgb(2, 90, 252);
+}
+
+.container.jumbo {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 20px;
 }
-.lista-giochi{
+
+.lista-giochi {
     max-width: 100%;
     margin-top:20px;
     border: none;
     border-radius: 20px;
 }
-   
+
+.section-margin {
+    margin: 40px auto;
+    height: auto;
+}
+
+.text-center.margin {
+    margin-top: 25px;
+    margin-bottom: 50px;
+} 
+
+.img-playstation {
+    border: none;
+}
+.terza-section{
+    background-color: rgb(49, 49, 121);
+}
