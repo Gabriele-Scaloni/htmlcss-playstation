@@ -1,13 +1,14 @@
 
 header{
-    height: 100px;
-    position: fixed; 
+    height: 150px;
+    position: sticky; 
 }
 
 .col-haeder-top {
     width: 100vw;
     height: auto;
     background-color: black;
+    padding: 10px 0;
 }
 
 .text-header {  
@@ -22,9 +23,32 @@ header{
 .btn-gray-border {
     border-radius: 20px;
 }
-.jumbotron{
-    padding-top:100px;
-
+.jumbotron {
+    width: 100% ;
     height: auto;
+    background-color: yellow;
+
 }
 
+.img-inside {
+    max-width: 250px;
+    min-width: 150px;
+    height: auto;
+} 
+
+.orange{
+    background-color: orangered;
+}
+
+.container.jumbo{
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.lista-giochi{
+    max-width: 100%;
+    margin-top:20px;
+    border: none;
+    border-radius: 20px;
+}
+   
