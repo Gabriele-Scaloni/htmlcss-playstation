@@ -1,7 +1,8 @@
 
 header {
-    height: 150px;
-    position: sticky; 
+    height: 100px;
+    position: fixed;
+    top:0; 
 }
 
 .col-haeder-top {
@@ -33,11 +34,17 @@ header {
 .btn-gray-border {
     border-radius: 20px;
 }
-
 .jumbotron {
-    width: 100% ;
+    margin-top:100px;
+    width: 100%;
+    background-image: url("img/jumbo-bg.png");
     height: auto;
-    background-color: yellow;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.img-jumbo {
+    margin-bottom: 50px ;
 }
 
 .img-inside {
@@ -45,7 +52,13 @@ header {
     min-width: 150px;
     height: auto;
 } 
-
+.terza-section {
+    width: 100%;
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
 .orange {
     background-color: orangered;
 }
@@ -81,24 +94,44 @@ header {
     border: none;
 }
 
-.terza-section, .quinta-section, .settima-section {
-    background-color: rgb(90, 90, 90);
+
+.terza-section-footer {
+    background-color: rgb(51, 51, 51);
 }       
+
+.quinta-section {
+    background-color: rgb(177, 174, 174);
+    width: 100%;
+    background-image: url("img/ps-plus-april-monthly-games-featured-image-block.png");
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
 
 .btn_gray {
     color: blue;
     background-color: rgb(180, 180, 180);
 }
+
 .btn_white{
     color: blue ;
     background-color: white;
 }
+
 .lista-giochi-no-border, .img-social {
     max-width: 100%;
     margin-top:20px;
     border: none;
 }
 
+.settima-section {
+    background-color: rgb(41, 0, 226);
+    width: 100%;
+    background-image: url("img/ps-now-april-featured-image-block.png");
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
 footer {
     width: 100%;
     height: auto;
