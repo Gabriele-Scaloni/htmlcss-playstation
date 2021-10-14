@@ -11,6 +11,12 @@ header {
     padding: 10px 0;
 }
 
+.logo {
+    width: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
 .text-header {  
     color: white ;
     padding-right: 5px;
@@ -32,7 +38,6 @@ header {
     width: 100% ;
     height: auto;
     background-color: yellow;
-
 }
 
 .img-inside {
@@ -52,7 +57,7 @@ header {
 .container.jumbo {
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .lista-giochi {
@@ -75,6 +80,50 @@ header {
 .img-playstation {
     border: none;
 }
-.terza-section{
-    background-color: rgb(49, 49, 121);
+
+.terza-section, .quinta-section, .settima-section {
+    background-color: rgb(90, 90, 90);
+}       
+
+.btn_gray {
+    color: blue;
+    background-color: rgb(180, 180, 180);
 }
+.btn_white{
+    color: blue ;
+    background-color: white;
+}
+.lista-giochi-no-border, .img-social {
+    max-width: 100%;
+    margin-top:20px;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    width: 80px;
+}
+
+.img-globe {
+    width: 20px;
+}
+
+.text-margin {
+    margin: 30px auto;
+}
+
+.link-footer {
+   list-style-type: none;
+}
+
+.logo-sony { 
+    width: 150px;
+}
+
