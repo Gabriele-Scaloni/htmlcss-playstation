@@ -1,8 +1,13 @@
-
+/* regole nuova nav */
 .cerca {
     width: 20px;
     border: none;
     margin-right: 15px;
+}
+
+.spunta {
+    display: inline;
+    width: 10px;
 }
 
 
@@ -29,17 +34,8 @@ header {
     margin-right: 20px;
 }
 
-.text-header {  
-    color: white ;
-    padding-right: 5px;
-}
-
 .text-white {
     color: white ;
-}
-
-.black-text {
-    color: black !important;
 }
 
 .btn-gray-border {
@@ -47,8 +43,11 @@ header {
 }
 .jumbotron {
     margin-top:100px;
-    width: 100%;
+    max-width: 100%;
     background-image: url("img/jumbo-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: auto;
     padding-top: 200px;
     padding-bottom: 50px;
@@ -64,11 +63,18 @@ header {
     height: auto;
 } 
 .terza-section {
-    width: 100%;
+    max-width: 100%;
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     height: auto;
-    padding-top: 200px;
     padding-bottom: 50px;
+}
+
+.terza-section-footer{
+    padding-top: 20px;
+    background-color: rgb(90, 89, 89);
 }
 .orange {
     background-color: orangered;
@@ -111,8 +117,11 @@ header {
 
 .quinta-section {
     background-color: rgb(177, 174, 174);
-    width: 100%;
+    max-width: 100%;
     background-image: url("img/ps-plus-april-monthly-games-featured-image-block.png");
+    background-size:contain;
+    background-position:right ;
+    background-repeat: no-repeat;
     height: auto;
     padding-top: 200px;
     padding-bottom: 50px;
@@ -138,6 +147,9 @@ header {
     background-color: rgb(41, 0, 226);
     width: 100%;
     background-image: url("img/ps-now-april-featured-image-block.png");
+    background-size:contain;
+    background-position:right ;
+    background-repeat: no-repeat;
     height: auto;
     padding-top: 200px;
     padding-bottom: 50px;
