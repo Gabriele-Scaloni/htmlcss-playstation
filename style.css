@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .cerca {
     width: 20px;
     border: none;
@@ -11,10 +12,10 @@ body {
     display: inline;
     width: 10px;
 }
+.spunta.hover {
+    display: none;
 
-
-
-/*  */
+}
 
 header {
     height: 100px;
@@ -28,7 +29,6 @@ header {
     background-color: black;
     padding: 10px 0;
 }
-
 
 .logo {
     width: 50px;
@@ -74,7 +74,7 @@ header {
     padding-bottom: 50px;
 }
 
-.terza-section-footer{
+.terza-section-footer {
     padding-top: 20px;
     background-color: rgb(90, 89, 89);
 }
@@ -195,15 +195,25 @@ footer {
     cursor: pointer;
 }
 
+
+
 /* effetti hover */
+
+.lista_nav:hover .spunta {
+   display: none;
+}
+.lista_nav:hover .spunta.hover {
+   display: inline-block;
+}
 
 .lista-giochi.hover:hover {
     border: 3px solid blue;
     cursor: pointer;
+
 }
 .lista-giochi.gadget:hover {
     cursor: pointer;
-    opacity: 1;
+    opacity: 1; 
     border-bottom: 2px solid blue;
 }
 
