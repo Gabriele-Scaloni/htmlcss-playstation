@@ -12,10 +12,14 @@ body {
     display: inline;
     width: 10px;
 }
+
 .spunta.hover {
     display: none;
 }
 
+.icona{
+    margin-right: 10px;
+}
 header {
     height: 100px;
     position: fixed;
