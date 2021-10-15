@@ -1,4 +1,6 @@
-/* regole nuova nav */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .cerca {
     width: 20px;
     border: none;
@@ -93,8 +95,14 @@ header {
 .lista-giochi {
     max-width: 100%;
     margin-top:20px;
+    padding-bottom: 5px;
     border: none;
     border-radius: 20px;
+}
+
+.gadget {
+    border-radius: 0;
+    opacity: 0.6;
 }
 
 .section-margin {
@@ -144,16 +152,17 @@ header {
 }
 
 .settima-section {
-    background-color: rgb(41, 0, 226);
-    width: 100%;
+    background-color: rgb(6, 6, 56);
     background-image: url("img/ps-now-april-featured-image-block.png");
     background-size:contain;
     background-position:right ;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    width: 100%;
     height: auto;
     padding-top: 200px;
     padding-bottom: 50px;
 }
+
 footer {
     width: 100%;
     height: auto;
@@ -181,4 +190,40 @@ footer {
 .logo-sony { 
     width: 150px;
 }
+.ahref-style-no {
+    text-decoration: none;
+    cursor: pointer;
+}
 
+/* effetti hover */
+
+.lista-giochi.hover:hover {
+    border: 3px solid blue;
+    cursor: pointer;
+}
+.lista-giochi.gadget:hover {
+    cursor: pointer;
+    opacity: 1;
+    border-bottom: 2px solid blue;
+}
+
+
+
+/* breakpoints */
+
+@media only screen and (max-width: 768px) { 
+ 
+    .settima-section {
+        background-image: none; 
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .quinta-section {
+        background-image: none;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .text_none {
+        display: none;
+    }
+  }
